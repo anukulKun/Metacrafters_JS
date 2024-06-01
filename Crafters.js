@@ -41,6 +41,7 @@ function getTotalSupply()
 //pushing into the the funcution mintNFT
 mintNFT("Kwala", "ERC 721", "APE", "ETH");
 mintNFT("Kuwait", "Sepolia", "Bandar", "Poly");
+mintNFT("Kashmir", "SOL", "Moshi", "Solana");
 
 // call your functions below this line
 listNFTs();
