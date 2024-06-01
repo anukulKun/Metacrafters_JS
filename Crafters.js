@@ -39,8 +39,8 @@ function getTotalSupply()
 }
 
 //pushing into the the funcution mintNFT
-mintNFT("Cool NFT", "blue", "t-shirt", "diamond necklace");
-mintNFT("Awesome NFT", "green", "hoodie", "gold watch");
+mintNFT("Kwala", "ERC 721", "APE", "ETH");
+mintNFT("Kuwait", "Sepolia", "Bandar", "Poly");
 
 // call your functions below this line
 listNFTs();
