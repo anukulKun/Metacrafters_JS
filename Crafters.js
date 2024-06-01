@@ -5,10 +5,10 @@ let nfts = [];
 function mintNFT(Name, Token, Type, Chain) 
 {
     let newNFT = {
-        Name: Kwala,
-        Token:ERC721 ,
-        Type: APE,
-        Chain: ETH
+        Name: Name,
+        Token:Token ,
+        Type: Type,
+        Chain: Chain
     };
     // pushing into the array
     nfts.push(newNFT);
@@ -21,11 +21,11 @@ function listNFTs()
     // and print their metadata with console.log()
     nfts.forEach((nft, index) => 
     {
-        console.log("NFT" + (index + 1));
-        console.log("Name:"+ nft.Name);
-        console.log("Token:"+ nft.Token);
-        console.log("Type:"+ nft.Type);
-        console.log("Chain:"+ nft.Chain);
+        console.log("NFT: " + (index + 1));
+        console.log("Name: "+ nft.Name);
+        console.log("Token: "+ nft.Token);
+        console.log("Type: "+ nft.Type);
+        console.log("Chain: "+ nft.Chain);
 
         console.log("-----------------------");
     }
